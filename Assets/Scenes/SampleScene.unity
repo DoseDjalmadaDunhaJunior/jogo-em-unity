@@ -599,6 +599,7 @@ GameObject:
   - component: {fileID: 666920228}
   - component: {fileID: 666920227}
   - component: {fileID: 666920229}
+  - component: {fileID: 666920230}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -716,6 +717,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a4533f30dc86b84a8bb9fc8fe7fb77c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0
+  velocidade: 50
+  voando: 1
+  nome: robocopGay
+  tempo: 0
+  distancia: 0
+--- !u!114 &666920230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666920224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cda6b941d57a674f838bda709ad35af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &930180974
